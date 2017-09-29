@@ -55,6 +55,15 @@
     <ClCompile Include="GeneratedFiles\qrc_SDModelerController.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
+    <ClCompile Include="qcustomplot.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qcustomplot.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qcustomplot.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="SDModelerController.h">
@@ -64,6 +73,9 @@
       <Filter>Form Files</Filter>
     </CustomBuild>
     <CustomBuild Include="SDModelerController.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qcustomplot.h">
       <Filter>Resource Files</Filter>
     </CustomBuild>
   </ItemGroup>
